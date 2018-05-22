@@ -1,0 +1,319 @@
+﻿* {
+    margin:0;
+    padding:0;
+}
+
+@media screen and (min-width:1200px) {
+    html, body {
+        height: 100%;
+    }
+
+    body {
+        font-size: 15px;
+        line-height: 1.5;
+        color: #333333;
+        background-color: #fff;
+        position: relative;
+    }
+
+
+    header {
+        position: relative;
+        color: #00ffff;
+        background-color: rgba(0,0,0,0.7);
+        padding: 10px 0px;
+    }
+
+    .logo {
+        float: left;
+        width: 30%;
+        margin: 10px 10px 10px 0px;
+    }
+
+    img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+
+    .site-name {
+        font-size: 60px;
+    }
+
+    .site-slogan {
+        font-size: 20px;
+    }
+
+    header .col-lg-8 {
+        margin-top: 15px;
+    }
+
+    .navbar-default {
+        border: none;
+        background-color: transparent;
+    }
+
+        .navbar-default .navbar-nav > li > a {
+            color: #fff;
+            font: 18px;
+        }
+
+    .navbar-nav > li {
+        margin-top: 15px;
+        font-size: 18px;
+    }
+
+    .navbar-default .navbar-nav > .active > a {
+        background-color: transparent;
+        color: #0c40f0;
+    }
+
+        .navbar-default .navbar-nav > .active > a:hover {
+            background-color: transparent;
+            color: #0c40f0;
+        }
+
+    .navbar-default .navbar-nav > li > a {
+        color: #fff;
+    }
+
+        .navbar-default .navbar-nav > li > a:hover {
+            color: #0c40f0;
+            background-color: transparent;
+        }
+
+    .fixed-header-on header {
+        height: 130px;
+        background-color: rgba(0,0,0,0.95);
+    }
+
+    .fixed-header-on .col-lg-4 {
+    }
+
+    .fixed-header-on .logo {
+        transform: scale(0.8);
+        margin-top: -15px;
+        margin-bottom: 0px;
+    }
+
+    .fixed-header-on .site-slogan {
+        margin-top: -15px;
+    }
+
+    .fixed-header-on .navbar-default {
+        margin-top: 10px;
+    }
+
+    section {
+        position: relative;
+        top: 175px;
+        text-align: center;
+    }
+
+    .leaderboard {
+        border-radius: 6px;
+    }
+
+        .leaderboard h1 {
+            position: relative;
+            font-size: 80px;
+            margin-bottom: 5px;
+            line-height: 1;
+            letter-spacing: -1px;
+            color: #92B901;
+        }
+
+    .lists {
+        position: relative;
+        width: 100%;
+        height: 680px;
+        background-color: #d9534f;
+    }
+
+    .col-lg-4 {
+        margin-top: 10px;
+        position: relative;
+    }
+
+    .leaderboard p {
+        margin: 0px 0px 0px 0px;
+        font-size: 20px;
+    }
+
+    .images img {
+        height: 268px;
+    }
+
+    .love-items {
+        padding: 3px 15px;
+    }
+
+    .card {
+        border: 2px solid;
+        border-radius: 8px;
+        background-color: #fff;
+        max-height: 450px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    html, body {
+        height: 100%;
+    }
+
+    body {
+        font-size: 15px;
+        line-height: 1.5;
+        color: #333333;
+        background-color: #fff;
+        position: relative;
+    }
+
+
+    header {
+        position: relative;
+        color: #00ffff;
+        background-color: rgba(0,0,0,0.7);
+        padding: 10px 0px;
+    }
+
+    .logo {
+        float: left;
+        width: 20%;
+        margin: 10px 0px 10px 0px;
+    }
+
+    img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+
+    .site-name {
+        font-size: 3em;
+    }
+
+    .site-slogan {
+        font-size: 1em;
+    }
+
+    header .col-lg-8 {
+        margin-top: 15px;
+        display:none;
+    }
+
+    .navbar-default {
+        border: none;
+        background-color: transparent;
+    }
+
+        .navbar-default .navbar-nav > li > a {
+            color: #fff;
+            font: 18px;
+        }
+
+    .navbar-nav > li {
+        margin-top: 15px;
+        font-size: 18px;
+    }
+
+    .navbar-default .navbar-nav > .active > a {
+        background-color: transparent;
+        color: #0c40f0;
+    }
+
+        .navbar-default .navbar-nav > .active > a:hover {
+            background-color: transparent;
+            color: #0c40f0;
+        }
+
+    .navbar-default .navbar-nav > li > a {
+        color: #fff;
+    }
+
+        .navbar-default .navbar-nav > li > a:hover {
+            color: #0c40f0;
+            background-color: transparent;
+        }
+
+    .fixed-header-on header {
+        height: 130px;
+        background-color: rgba(0,0,0,0.95);
+    }
+
+    .fixed-header-on .col-lg-4 {
+    }
+
+    .fixed-header-on .logo {
+        transform: scale(0.8);
+        margin-top: -15px;
+        margin-bottom: 0px;
+    }
+
+    .fixed-header-on .site-slogan {
+        margin-top: -15px;
+    }
+
+    .fixed-header-on .navbar-default {
+        margin-top: 10px;
+    }
+
+    section {
+        position: relative;
+        top:20%;
+        text-align: center;
+    }
+
+    .leaderboard {
+        border-radius: 6px;
+    }
+
+        .leaderboard h1 {
+            position: relative;
+            font-size: 3em;
+            margin-bottom: 5px;
+            line-height: 1;
+            letter-spacing: -1px;
+            color: #92B901;
+        }
+
+    .lists {
+        position: relative;
+        width: 100%;
+        height: 50%;
+        background-color: #d9534f;
+    }
+
+    .col-lg-4 {
+        margin-top: 10px;
+        position: relative;
+    }
+
+    .leaderboard p {
+        margin: 0px 0px 0px 0px;
+        font-size: 20px;
+    }
+
+    .images img {
+        height: 268px;
+    }
+
+    .love-items {
+        padding: 3px 15px;
+    }
+
+    .card {
+        border: 2px solid;
+        border-radius: 8px;
+        background-color: #fff;
+        max-height: 450px;
+    }
+}
