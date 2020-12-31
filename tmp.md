@@ -1,9 +1,7 @@
 ### <a name="oddlots"></a> 查询用户所有有碎股的持仓
-
 GET /oddlots
 
 返回参数
-
 参数 | 类型 | 必需 | 说明
 --- | --- | --- | ---
 symbol | string | true | 股票代码
@@ -13,7 +11,6 @@ market|String  |true | [市场](data.md#market)
 nameCN | string | true | 中文名
 quantity | string | true |仅返回碎股部分持仓
 isApplied | string | true | 当日是否已申请碎股处理
-
 返回值示例:
 
     {
